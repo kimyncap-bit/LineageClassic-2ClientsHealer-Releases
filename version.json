@@ -1,10 +1,10 @@
 {
-  "version": "α0.353",
-  "backend_version": "8.9.75",
+  "version": "α0.354",
+  "backend_version": "8.9.79",
   "channel": "alpha",
-  "release_notes": "α0.353 — 따라가기·힐·조작 개선.\n\n• 격수↔힐러 '바꾸기' 버튼 추가 (자동 매핑이 틀렸을 때 picker 없이 즉시 교체).\n• 따라가기 빨라짐 (격수가 멀어지면 더 빨리 추격, 멈춰 싸울 땐 기존대로).\n• 격수 인식 정확도 향상 (직전 위치를 벗어난 엉뚱한 곳 오인식 차단).\n• 격수 이름 인식이 모니터/창 크기에 자동 대응.\n• 힐 중 마우스 양보 — 내가 마우스를 잡으면 봇이 즉시 비켜주고, 손 떼면 다시 힐.\n• 힐 시 격수 중앙 정조준 (위아래 들썩임 제거) + F9 시전모드 멈춤 즉시 해제.\n• 힐러 최대HP 수동입력 추가 (자동 인식 실패 시 대비).\n• 업데이트/재설치해도 내 설정(계정·HP보정·이름학습·슬라이더)이 유지됩니다.",
-  "download_url": "https://github.com/kimyncap-bit/LineageClassic-2ClientsHealer-Releases/releases/download/%CE%B10.353/LineageHealerSetup_.0.353.exe",
-  "sha256": "d891f18cb36455310450ebcd2043e7e75b029669c19155d68f9b140a643981be",
+  "release_notes": "α0.354 — 따라가기·힐·조작 개선 + 안정화.\n\n• 격수↔힐러 '바꾸기' 버튼 (자동 매핑이 거꾸로일 때 picker 없이 즉시 교체).\n• 따라가기 빨라짐 (격수가 멀어지면 더 빨리 추격, 멈춰 싸울 땐 기존대로).\n• 격수 인식 정확도 향상 (직전 위치를 벗어난 엉뚱한 곳 오인식 차단).\n• 힐 중 마우스 양보 — 내가 마우스를 잡으면 봇이 즉시 비켜주고, 손 떼면 다시 힐.\n• 힐 시 격수 중앙 정조준 (위아래 들썩임 제거) + F9 시전모드 멈춤을 즉시 해제.\n• 격수·힐러 최대HP 수동입력 (HP 숫자가 틀리게 나올 때 직접 교정).\n• 격수 이름 인식 개선 — 모니터/창 크기 자동 대응 + 학습 미리보기 표시 + 캡처 영역 보정.\n• 이름 학습 팝업이 중복으로 뜨던 문제 수정.\n• 업데이트/재설치해도 내 설정(계정·HP보정·이름학습·슬라이더)이 유지됩니다.\n• 앱 버전 표시를 정확하게 수정.",
+  "download_url": "https://github.com/kimyncap-bit/LineageClassic-2ClientsHealer-Releases/releases/download/%CE%B10.354/LineageHealerSetup_.0.354.exe",
+  "sha256": "a71ccb948974a13b9e37dc12a5258c667e322ee099e4bb54235f3219366c4aa5",
   "min_python": "3.12",
   "mandatory": false
 }
