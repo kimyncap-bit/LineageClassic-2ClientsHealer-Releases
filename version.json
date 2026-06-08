@@ -1,13 +1,13 @@
 {
-  "version": "α0.359",
+  "version": "α0.360",
   "base_version": "base-1",
-  "backend_version": "8.9.202",
+  "backend_version": "8.9.203",
   "channel": "alpha",
-  "release_notes": "α0.359 — 따라가기 반응성·힐 속도·밤설원 추적 개선 (내부 테스트).\n\n• 따라가기 즉각 반응 — 격수가 움직이면 힐러가 거의 바로 따라붙도록 미러 릴레이 간격을 크게 단축(이동 반응 약 4배 빠름). 격수가 멈추면 위치를 다시 맞춰 더 바짝 붙습니다.\n• 힐 속도 개선 — 밤·설원에서 격수 확인이 늦어 힐이 수십 초 지연되던 문제 개선. 직전에 격수를 확인했고 추적이 이어지는 동안에는 재확인을 생략해 즉시 힐합니다(엉뚱한 대상 힐 방지 안전장치는 그대로 유지).\n• 밤·설원 재추적 — 자동사냥(ATS) 중 격수를 놓쳤을 때 직전 위치를 기준으로 다시 빠르게 찾아 따라갑니다.\n• 격수 위치 재확정(homography→캐릭터검출→이름인식 순차)·미러 따라가기·화면 개편은 직전 버전 그대로.\n• 버프 자동시전은 이번에도 꺼져 있습니다(검증 후 재활성).",
+  "release_notes": "α0.360 — 따라가기 안정 동작 복원 + 힐 속도 개선 (내부 테스트).\n\n• 따라가기 동작을 잘 따라가던 안정 버전으로 되돌렸습니다. (직전 빌드에서 바꾼 미러 릴레이 간격 단축·정지 재동기가 밤·근접 전투에서 오히려 안 따라가게 만들어 원복.)\n• 힐 속도 개선 — 밤·설원에서 격수 확인이 늦어 힐이 수십 초 지연되던 문제 개선. 직전에 격수를 확인했고 추적이 이어지는 동안에는 재확인을 생략해 즉시 힐합니다(엉뚱한 대상 힐 방지 안전장치는 그대로 유지).\n• 밤·설원 재추적 — 자동사냥(ATS) 중 격수를 놓쳤을 때 직전 위치를 기준으로 다시 빠르게 찾아 따라갑니다.\n• 격수 위치 재확정·미러 따라가기·화면 개편은 직전 버전 그대로.\n• 버프 자동시전은 이번에도 꺼져 있습니다(검증 후 재활성).",
   "download_url": "https://github.com/kimyncap-bit/LineageClassic-2ClientsHealer-Releases/releases/download/%CE%B10.359/LineageHealerSetup_.0.359.exe",
   "sha256": "db57fa158c868fbc2e4860f706d8c1c3ddfbbf70b71956447bed339967b321da",
   "min_python": "3.12",
   "mandatory": false,
-  "update_url": "https://github.com/kimyncap-bit/LineageClassic-2ClientsHealer-Releases/releases/download/%CE%B10.359/LineageHealerUpdate_.0.359.exe",
-  "update_sha256": "f3f69e27450e6897c049f0123f853b36e437fd540be765a5b0547c5b6d13ba87"
+  "update_url": "https://github.com/kimyncap-bit/LineageClassic-2ClientsHealer-Releases/releases/download/%CE%B10.360/LineageHealerUpdate_.0.360.exe",
+  "update_sha256": "77bfb298ce51d67687891af32ee4b3df75d7fcfa025f362bf1ad2853b873d551"
 }
