@@ -1,13 +1,11 @@
 {
-  "version": "α0.360",
+  "version": "α0.366",
   "base_version": "base-1",
-  "backend_version": "8.9.203",
+  "backend_version": "8.9.255",
   "channel": "alpha",
-  "release_notes": "α0.360 — 따라가기 안정 동작 복원 + 힐 속도 개선 (내부 테스트).\n\n• 따라가기 동작을 잘 따라가던 안정 버전으로 되돌렸습니다. (직전 빌드에서 바꾼 미러 릴레이 간격 단축·정지 재동기가 밤·근접 전투에서 오히려 안 따라가게 만들어 원복.)\n• 힐 속도 개선 — 밤·설원에서 격수 확인이 늦어 힐이 수십 초 지연되던 문제 개선. 직전에 격수를 확인했고 추적이 이어지는 동안에는 재확인을 생략해 즉시 힐합니다(엉뚱한 대상 힐 방지 안전장치는 그대로 유지).\n• 밤·설원 재추적 — 자동사냥(ATS) 중 격수를 놓쳤을 때 직전 위치를 기준으로 다시 빠르게 찾아 따라갑니다.\n• 격수 위치 재확정·미러 따라가기·화면 개편은 직전 버전 그대로.\n• 버프 자동시전은 이번에도 꺼져 있습니다(검증 후 재활성).",
-  "download_url": "https://github.com/kimyncap-bit/LineageClassic-2ClientsHealer-Releases/releases/download/%CE%B10.359/LineageHealerSetup_.0.359.exe",
-  "sha256": "db57fa158c868fbc2e4860f706d8c1c3ddfbbf70b71956447bed339967b321da",
+  "release_notes": "α0.366 — 야간 인식·힐 속도·따라가기 안정성 대폭 개선 (풀설치 권장).\n\n• 야간·설원 인식 복구 — 어두운 환경에서 격수를 찾아주는 AI 보조 인식이 설치판에서 작동하지 않던 문제를 수정했습니다. 밤 사냥 추적이 크게 안정됩니다.\n• 힐 속도 개선 — 힐이 필요해진 순간부터 시전까지 더 빨라졌고, 시전 후 마우스를 즉시 돌려드립니다. 힐 빗나감(미반영)도 절반 수준으로 줄었습니다.\n• 제자리 헛클릭 제거 — 격수가 멈춰 싸우는 중에 힐러가 옆에서 주기적으로 땅을 클릭하던 현상을 수정했습니다.\n• 봇 멈춤 자가 회복 — 드물게 시전 커서가 걸려 봇이 멈추던 문제를 스스로 풀고 계속 동작하도록 했습니다.\n• 따라가기 반응 개선 — 격수를 직접 조작할 때 따라오는 반응이 더 빨라졌습니다.\n• 서버랙 표시 — 서버 렉으로 화면이 멈추면 양쪽 게임창에 '서버랙' 안내가 표시됩니다.\n• 설정 영구 보존 — 이번 버전부터 힐 임계 등 직접 조정한 설정이 업데이트 후에도 유지됩니다.\n• 창 표시 안정화 — 일부 환경에서 프로그램 창이 투명해지던 문제를 근본 수정했습니다.\n• 버프 자동시전은 이번에도 꺼져 있습니다(검증 후 재활성).",
+  "download_url": "https://github.com/kimyncap-bit/LineageClassic-2ClientsHealer-Releases/releases/download/%CE%B10.366/LineageHealerSetup_.0.366.exe",
+  "sha256": "62029fee4a92a4a3285959b5d9295874356df3e3fed90be609eeccb217d75ada",
   "min_python": "3.12",
-  "mandatory": false,
-  "update_url": "https://github.com/kimyncap-bit/LineageClassic-2ClientsHealer-Releases/releases/download/%CE%B10.360/LineageHealerUpdate_.0.360.exe",
-  "update_sha256": "77bfb298ce51d67687891af32ee4b3df75d7fcfa025f362bf1ad2853b873d551"
+  "mandatory": false
 }
